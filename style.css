@@ -5,6 +5,7 @@
   font-family: Arial, sans-serif;
 }
 
+/* Design for navbar section */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -45,5 +46,91 @@
   border-radius: 6px;
   text-decoration: none;
   font-weight: 500;
+  font-size: 14px;
+}
+
+    /* Design for hero section */
+.hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero-text {
+  max-width: 700px;
+}
+
+.hero-text h1 {
+  color: #ffffff;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero-text h1 em {
+  font-style: italic;
+}
+
+.hero-text p {
+  color: #e5e5e5;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/*Design for Speakers Section */
+.speakers {
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.speakers h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  text-align: left;
+}
+
+.speaker-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.speaker-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.speaker-info {
+  padding: 15px;
+}
+
+.speaker-tag {
+  color: #4338ca;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.speaker-info h3 {
+  margin: 8px 0 4px;
+}
+
+.speaker-info p {
+  color: #555;
   font-size: 14px;
 }
